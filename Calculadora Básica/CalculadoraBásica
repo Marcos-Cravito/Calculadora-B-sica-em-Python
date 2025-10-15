@@ -1,0 +1,32 @@
+print('Calculadora básica\n')
+opcao = float(input('\n Escolha a sua opção \n 1 = soma \n 2 = subtração \n 3 = multiplicação \n 4 = divisão \n'))
+
+if opcao==1:
+    a1 = float(input('insira seu primeiro valor\n'))
+    b1 = float(input('insira seu segundo valorz\n'))
+    c1 = a1+b1
+    print('Resultado da soma =',c1)
+    exit()
+if opcao==2:
+    a2 = float(input('insira seu primeiro valor\n'))
+    b2 = float(input('insira seu segundo valor\n'))
+    c2 = a2-b2
+    print('Resultado da soma =',c2)
+    exit()
+if opcao==3:
+    a3 = float(input('insira seu primeiro valor\n'))
+    b3 = float(input('insira seu segundo valor\n'))
+    c3 = a3*b3
+    print('Resultado da soma =',c3)
+    exit()
+if opcao==4:
+    a4 = float(input('insira seu primeiro valor\n'))
+    b4 = float(input('insira seu segundo valor\n'))
+    if b4 ==0:
+        print('Não é possivel divisão por zero, insira um valor válido\n')
+        exit()
+    c4 = a4/b4
+    print('Resultado da divisão\n',c4)
+    
+else:
+    print('insira uma opção válida\n')
